@@ -1,0 +1,155 @@
+[
+  {
+    "reservation_id": "gst-demo-001",
+    "guest": {
+      "email": "john.smith@example.com",
+      "first_name": "John",
+      "last_name": "Smith",
+      "phone": "+10000000001"
+    },
+    "stay": {
+      "listing_name": "Demo Apartment A",
+      "arrival_date": "2026-07-10",
+      "departure_date": "2026-07-14"
+    },
+    "booking_source": "Direct",
+    "status": "confirmed",
+    "updated_at": "2026-06-20T10:00:00Z"
+  },
+  {
+    "reservation_id": "gst-demo-002",
+    "guest": {
+      "email": " Anna.Demo@Example.com ",
+      "first_name": "Anna",
+      "last_name": "Demo",
+      "phone": "+10000000002"
+    },
+    "stay": {
+      "listing_name": "Demo Property B",
+      "arrival_date": "2026-07-12",
+      "departure_date": "2026-07-15"
+    },
+    "booking_source": "Marketplace",
+    "status": "confirmed",
+    "updated_at": "2026-06-21T09:00:00Z"
+  },
+  {
+    "reservation_id": "gst-demo-003-old",
+    "guest": {
+      "email": "duplicate@example.com",
+      "first_name": "Dana",
+      "last_name": "Older",
+      "phone": ""
+    },
+    "stay": {
+      "listing_name": "Demo Loft C",
+      "arrival_date": "2026-07-01",
+      "departure_date": "2026-07-03"
+    },
+    "booking_source": "Direct",
+    "status": "confirmed",
+    "updated_at": "2026-06-01T08:00:00Z"
+  },
+  {
+    "reservation_id": "gst-demo-003-new",
+    "guest": {
+      "email": "DUPLICATE@example.com",
+      "first_name": "Dana",
+      "last_name": "Newer",
+      "phone": "+10000000003"
+    },
+    "stay": {
+      "listing_name": "Demo Loft C",
+      "arrival_date": "2026-08-01",
+      "departure_date": "2026-08-05"
+    },
+    "booking_source": "Marketplace",
+    "status": "confirmed",
+    "updated_at": "2026-06-22T08:00:00Z"
+  },
+  {
+    "reservation_id": "gst-demo-004",
+    "guest": {
+      "email": "invalid-email",
+      "first_name": "Invalid",
+      "last_name": "Email",
+      "phone": "+10000000004"
+    },
+    "stay": {
+      "listing_name": "Demo Apartment A",
+      "arrival_date": "2026-07-20",
+      "departure_date": "2026-07-22"
+    },
+    "booking_source": "Direct",
+    "status": "confirmed",
+    "updated_at": "2026-06-23T10:00:00Z"
+  },
+  {
+    "reservation_id": "gst-demo-005",
+    "guest": {
+      "email": null,
+      "first_name": "Missing",
+      "last_name": "Email",
+      "phone": "+10000000005"
+    },
+    "stay": {
+      "listing_name": "Demo Property B",
+      "arrival_date": "2026-07-23",
+      "departure_date": "2026-07-25"
+    },
+    "booking_source": "Marketplace",
+    "status": "confirmed",
+    "updated_at": "2026-06-24T10:00:00Z"
+  },
+  {
+    "reservation_id": "gst-demo-006",
+    "guest": {
+      "email": "cancelled@example.com",
+      "first_name": "Casey",
+      "last_name": "Cancelled",
+      "phone": "+10000000006"
+    },
+    "stay": {
+      "listing_name": "Demo Apartment A",
+      "arrival_date": "2026-07-26",
+      "departure_date": "2026-07-28"
+    },
+    "booking_source": "Direct",
+    "status": "cancelled",
+    "updated_at": "2026-06-25T10:00:00Z"
+  },
+  {
+    "reservation_id": "gst-demo-007",
+    "guest": {
+      "email": "missing.phone@example.com",
+      "first_name": "Morgan",
+      "last_name": "NoPhone",
+      "phone": null
+    },
+    "stay": {
+      "listing_name": "Demo Property B",
+      "arrival_date": "2026-08-02",
+      "departure_date": "2026-08-04"
+    },
+    "booking_source": "Referral",
+    "status": "confirmed",
+    "updated_at": "2026-06-26T10:00:00Z"
+  },
+  {
+    "reservation_id": "gst-demo-008",
+    "guest": {
+      "email": "nolisting@example.com",
+      "first_name": "Taylor",
+      "last_name": "NoListing",
+      "phone": "+10000000008"
+    },
+    "stay": {
+      "listing_name": null,
+      "arrival_date": "2026-08-05",
+      "departure_date": "2026-08-07"
+    },
+    "booking_source": "Direct",
+    "status": "confirmed",
+    "updated_at": "2026-06-27T10:00:00Z"
+  }
+]
