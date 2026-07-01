@@ -1,3 +1,6 @@
+Built by Edvin Zenevič — Automation & Integration Engineer · [ezenevic.com](https://www.ezenevic.com/) · [LinkedIn](https://www.linkedin.com/in/edvin-zenevic/)
+
+
 # PMS → HubSpot Sync Case Study
 
 Sanitized public case study based on real commercial automation work: Guesty → HubSpot and Hostaway → HubSpot data sync workflows.
