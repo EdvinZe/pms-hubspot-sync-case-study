@@ -157,3 +157,7 @@ It does not include:
 - production environment configuration
 
 The goal is to demonstrate the engineering approach while respecting client confidentiality.
+
+
+
+Need a similar integration? I build custom PMS/CRM/payment integrations. → ezenevic.com
